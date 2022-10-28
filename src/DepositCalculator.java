@@ -36,12 +36,8 @@ public class DepositCalculator {
         } else if (action == 2) {
             depositResult = calculateComplexPercent(amount, 0.06, period);
         }
-        System.out.println("Результат вклада: "
-                + amount
-                + " за "
-                + period
-                + " лет превратятся в "
-                + depositResult);
+        System.out.println("Результат вклада: " + amount + " за "
+                + period + " лет превратятся в " + depositResult);
     }
 
     public static void main(String[] args) {
